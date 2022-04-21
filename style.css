@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+/* header */
+header {
+    height: 40px;
+    background: #66768A;
+    padding: 10px;
+}
+
+nav *{
+    float: left;
+    width: 33.33%;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav li > a {
+    width: 100%;
+}
+
+nav img {
+    padding: 0 12%;
+}
+
+nav ul + img + a {
+    padding-left: 20%;
+}
+/* header */
+/* header */
+
+
+/* section below header */
+/* section below header */
+header + section {
+    padding: 50px 200px;
+    background: #66768A;
+    text-align: center;
+}
+
+header + section * {
+    padding-bottom: 25px;
+    color: white;
+    text-decoration: none;
+}
+/* section below header */
+/* section below header */
+
+
+/* section below first section */
+/* section below first section */
+header + section + section {
+    text-align: center;
+    padding: 100px 500px;
+}
+/* section below first section */
+/* section below first section */
+
+
+/* third section */
+/* third section */
+.column {
+    width: 50%;
+    float: left;
+    background: #DBDFE2;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+.column * {
+    margin: 30px;
+    color: #161F2A;
+    text-decoration: none;
+}
+
+.column a {
+    padding: 10px;
+}
+/* third section */
+/* third section */
+
+
+/* fourth section */
+/* fourth section */
+.volunteering *{
+    color: #161F2A;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.volunteering {
+    padding: 50px 500px;
+    text-align: center;
+    clear: both;
+}
+
+.volunteering a {
+    padding: 10px; 
+}
+/* fourth section */
+/* fourth section */
+
+
+/* footer sections work */
+/* footer sections work */
+footer {
+    background: #161F2A;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer > section {
+    float: left;
+    color:#66768A;
+    width: 80%;
+    padding: 30px 100px 30px 30px;
+}
+
+footer > section div {
+    width: 40%;
+    clear: both;
+}
+
+footer > section + section {
+    float: left;
+    color: #66768A;
+    width: 19%;
+    padding: 30px 30px 30px 100px;
+}
+
+footer > section li {
+    list-style: none;
+    float: left;
+    padding: 2px;
+}
+/* footer sections work */
+/* footer sections work */
+
+
+
+
+
+
+
+
